@@ -4,5 +4,5 @@
 }
 .hover-test{
     color: red;
-    cursor:url('http://upload.wikimedia.org/wikipedia/commons/d/de/POL_apple.jpg'), auto;
+    cursor: pointer;
 }
