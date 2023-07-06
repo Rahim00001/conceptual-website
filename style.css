@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hover-test{
+    color: red;
+    cursor:url('http://upload.wikimedia.org/wikipedia/commons/d/de/POL_apple.jpg'), auto;
+}
