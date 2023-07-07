@@ -78,3 +78,23 @@ button:hover{
 .menu-img{
     width: 300px;
 }
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+    
+}
+.about-img{
+    width: 300px;
+}
+.about-title{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 20px;
+}
+.about-h1{
+    margin-bottom: 15px;
+}
