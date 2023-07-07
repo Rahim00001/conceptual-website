@@ -62,9 +62,9 @@
 button{
     padding: 10px 30px;
     margin-top: 15px;
-    background-color: rgba(247, 247, 36, 0.974);
+    background-color: crimson;
     border: none;
-    color: black;
+    color: white;
     font-size: 16px;
     font-weight: 500px;
     cursor: pointer;
@@ -72,8 +72,8 @@ button{
 }
 button:hover{
     background-color: rgb(226, 44, 80);
-    color: white;
-    border-radius: 10px;
+    color: wheat;
+    border-radius: 8px;
 }
 .menu-img{
     width: 300px;
@@ -97,4 +97,40 @@ button:hover{
 }
 .about-h1{
     margin-bottom: 15px;
+}
+
+.service-container{
+    background-image: url(img/background.png),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    height: 65vh;
+}
+.service-header{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.service-1{
+    width: 250px;
+    height: 320px;
+    box-shadow: 10px 10px 30px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 30px;
+}
+.service-img{
+    width: 70px;
+    margin-top: 15px;
+}
+.service-desc{
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
 }
