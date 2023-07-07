@@ -6,3 +6,27 @@
     color: red;
     cursor: pointer;
 }
+.box{
+    background-color: lightblue;
+    padding: 20px;
+    width: 20%;
+    height: 90px;
+}
+.box2{
+    background-color: lightcoral;
+    padding: 20px;
+    width: 20%;
+    height: 110px;
+}
+.box3{
+    background-color: lightgreen;
+    padding: 20px;
+    width: 20%;
+    height: 140px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+}
