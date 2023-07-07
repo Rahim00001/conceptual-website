@@ -1,32 +1,37 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-.menu-container{
-    background-color: black;
-    color: white;
-    padding: 20px;
-    list-style: none;
+.nav-container{
+    background-color: rgb(73, 71, 71);
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    height: 60px;
+    align-items: center;
 }
-.logo{
-    color: wheat;
-    font-size: 28px;
-    
+.logo-img{
+    width: 90px;
+    height: 20px;
 }
-.menus{
-    display: flex;
+.logo-img:hover{
+    width: 100px;
 }
-.menu-item{
-    margin-right: 20px;
-    padding-right: 7px;
-    font-size: 18px;
+.menu-logo{
+    padding-top: 10px;
     cursor: pointer;
 }
-.menu-item:hover{
-    text-decoration: underline;
+.menu-item{
+    display: flex;
+    list-style: none;
 }
-   
-
+.item{
+    margin-right: 30px;
+    font-size: 18px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+.item:hover{
+    text-decoration: underline;
+    
+}
